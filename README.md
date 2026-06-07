@@ -1,12 +1,23 @@
-# Artemis Rocket Simulator
+# Artemis Rocket Simulator 🚀
 
-Simple Python simulator for your Artemis 2 rocket models.
+**SFS-inspired 2D animated rocket physics simulator** for your science fair / KIR projects and Artemis 2 soda can models.
 
-## Features
-- Basic physics: thrust, gravity, drag
-- Multi-stage ready (easy to extend)
-- Plots trajectory
+## Features (now looks like Spaceflight Simulator!)
+- Realistic physics: thrust, gravity, drag, mass change
+- **Animated 2D side-view flight** with moving rocket, flickering engine flames, fins, nose cone
+- Live HUD showing time, altitude, velocity, stage (like SFS)
+- Trajectory trail
+- Easy to tweak parameters for your real builds
+- Multi-stage ready (booster burn → coast)
 
-Run with: `python simulator.py`
+## How to run
+```bash
+pip install numpy matplotlib
+python simulator_sfs.py
+```
 
-Tweak parameters in the class for your soda can builds! 🚀
+Watch your rocket fly just like in SFS! Perfect for visualizing physics before/after building your models.
+
+Tweak `dry_mass`, `fuel_mass`, `thrust`, `burn_time` etc in the class to match your soda can rocket.
+
+Made for you bro, let's make that science fair pop 🔥
