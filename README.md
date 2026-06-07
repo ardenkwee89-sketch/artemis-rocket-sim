@@ -1,10 +1,12 @@
 # Artemis Rocket Simulator
 
-A simple Python simulation for multi-stage rocket physics, inspired by Artemis 2. Perfect for science fair projects!
+Simple Python simulator for your Artemis 2 rocket models.
 
 ## Features
-- Basic trajectory simulation
-- Staging mechanics
-- Newton's laws implementation
+- Basic physics: thrust, gravity, drag
+- Multi-stage ready (easy to extend)
+- Plots trajectory
 
-Run `python simulator.py` to try it.
+Run with: `python simulator.py`
+
+Tweak parameters in the class for your soda can builds! 🚀
